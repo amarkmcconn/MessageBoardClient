@@ -1,0 +1,20 @@
+@model MessageBoardClient.Models.Message;
+
+<h4>Create new message:</h4>
+
+@using (Html.BeginForm())
+{
+  @Html.LabelFor(model => model.Group)
+  @Html.TextBoxFor(model => model.Group, new {required = "required"})
+
+  @Html.LabelFor(model => model.Author)
+  @Html.TextBoxFor(model => model.Author, new {required = "required"})
+
+  @Html.LabelFor(model => model.Body)
+  @Html.TextAreaFor(model => model.Body, new {required = "required"})
+
+
+  @* @Html.HiddenFor(model => model.Date , new {DateTime.Now}) *@
+
+  <input type="submit" value="Add new message" />
+}

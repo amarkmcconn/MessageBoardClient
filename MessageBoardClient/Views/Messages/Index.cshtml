@@ -1,0 +1,14 @@
+<h1>All Messages</h1>
+<ol>
+  @foreach (Message message in Model)
+  {
+    <ul>
+      <li>Group: @message.Group</li>
+      <li>Author: @message.Author</li>
+      <li>Body: @message.Body</li>
+      <li>Date: @message.Date</li>
+    </ul>
+    <a href="/Messages/Details/@(message.MessageId)"><p>Details</p></a>
+  }
+</ol>
+@Html.ActionLink("New Message", "Create")

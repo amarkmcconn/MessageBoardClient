@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "o1DGZD21G7PRAMoKZOchMc17IwsjwDOXSjlDfiAmc7SWvNWlzyXM9he564qWWuenIorD/ZLbTPssgqFGsyoGXA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jerem\\OneDrive\\Desktop\\projects\\MessageBoardClient.Solution\\MessageBoardClient\\MessageBoardClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jerem\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\jerem\\.nuget\\packages\\restsharp\\106.6.10\\restsharp.106.6.10.nupkg.sha512",
+    "C:\\Users\\jerem\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
