@@ -6,3 +6,6 @@
 <h4>@Model.Author</h4>
 <p>@Model.Body</p>
 <h6>@Model.Date</h6>
+
+@Html.ActionLink("Edit Message", "Edit", new {id = Model.MessageId})
+@Html.ActionLink("Delete Message", "Delete", new {id = Model.MessageId})

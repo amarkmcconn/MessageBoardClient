@@ -1,9 +1,11 @@
-@model MessageBoardClient.Models.Message;
+@model MessageBoardClient.Models.Message
 
-<h4>Create new message:</h4>
+<h4>Edit Message</h4>
 
 @using (Html.BeginForm())
 {
+  @Html.HiddenFor(m => m.MessageId)
+  
   @Html.LabelFor(model => model.Group)
   @Html.TextBoxFor(model => model.Group, new {required = "required"})
 
@@ -13,5 +15,6 @@
   @Html.LabelFor(model => model.Body)
   @Html.TextAreaFor(model => model.Body, new {required = "required"})
 
-  <input type="submit" value="Add new message" />
+  <input type="submit" value="Save Changes" class="btn btn-success" />
 }
+

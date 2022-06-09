@@ -33,5 +33,28 @@ namespace MessageBoardClient.Controllers
       Message.Post(message);
       return RedirectToAction("Index");
     }
+    public ActionResult Edit(int id)
+    {
+      var message = Message.GetDetails(id);
+      return View(message);
+    }
+    [HttpPost]
+    public ActionResult Edit(Message message)
+    {
+      message.Date = System.DateTime.Now;
+      Message.Put(message);
+      return RedirectToAction("Details", new {id = message.MessageId});
+    }
+    public ActionResult Delete(int id)
+    {
+      var message = Message.GetDetails(id);
+      return View(message);
+    }
+    [HttpPost, ActionName("Delete")]
+    public ActionResult DeleteConfirmed(int id)
+    {
+      Message.Delete(id);
+      return RedirectToAction("Index");
+    }
   }
 }

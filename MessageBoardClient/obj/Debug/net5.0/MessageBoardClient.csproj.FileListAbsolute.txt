@@ -42,3 +42,5 @@ C:\Users\jerem\OneDrive\Desktop\projects\MessageBoardClient.Solution\MessageBoar
 C:\Users\jerem\OneDrive\Desktop\projects\MessageBoardClient.Solution\MessageBoardClient\obj\Debug\net5.0\ref\MessageBoardClient.dll
 C:\Users\jerem\OneDrive\Desktop\projects\MessageBoardClient.Solution\MessageBoardClient\obj\Debug\net5.0\Razor\Views\Messages\Details.cshtml.g.cs
 C:\Users\jerem\OneDrive\Desktop\projects\MessageBoardClient.Solution\MessageBoardClient\obj\Debug\net5.0\Razor\Views\Messages\Create.cshtml.g.cs
+C:\Users\jerem\OneDrive\Desktop\projects\MessageBoardClient.Solution\MessageBoardClient\obj\Debug\net5.0\Razor\Views\Messages\Edit.cshtml.g.cs
+C:\Users\jerem\OneDrive\Desktop\projects\MessageBoardClient.Solution\MessageBoardClient\obj\Debug\net5.0\Razor\Views\Messages\Delete.cshtml.g.cs
